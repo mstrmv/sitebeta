@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blackwood Charcoal | Premium Quality</title>
+    <title>Blackwood Charcoal | Premium</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
         <div class="logo">BLACKWOOD • <span>CHARCOAL</span></div>
         <nav>
-            <a href="index.html" class="active" data-i18n="nav_home">ГОЛОВНА</a>
+            <a href="index.html" data-i18n="nav_home">ГОЛОВНА</a>
             <a href="catalog.html" data-i18n="nav_catalog">КАТАЛОГ</a>
             <a href="delivery.html" data-i18n="nav_delivery">ДОСТАВКА</a>
             <a href="about.html" data-i18n="nav_about">О НАС</a>
@@ -20,27 +20,24 @@
         </nav>
         <div class="header-right">
             <div class="lang-switch">
-                <span onclick="setLang('uk')" id="lang-uk" class="active">UKR</span>
+                <span onclick="setLang('uk')" id="lang-uk">UKR</span>
                 <span onclick="setLang('ru')" id="lang-ru">RU</span>
                 <span onclick="setLang('en')" id="lang-en">EN</span>
             </div>
             <a href="cart.html" class="cart-btn">
-                <span data-i18n="nav_cart">КОРЗИНА</span>
-                <span id="cart-count">0</span>
+                <span data-i18n="nav_cart">КОШИК</span> (<span id="cart-count">0</span>)
             </a>
         </div>
     </header>
 
-    <main class="hero" style="background-image: url('assets/img/hero-bg.png');">
+    <main class="hero" id="hero-section">
         <div class="hero-content">
-            <div class="badge" data-i18n="hero_badge">● Преміальний вугілля для гриля</div>
+            <div class="badge">● <span data-i18n="hero_badge">Преміальне вугілля</span></div>
             <h1 data-i18n="hero_title">PREMIUM HARDWOOD CHARCOAL</h1>
-            <p data-i18n="hero_desc">Довге горіння, мінімум попелу, чистий жар. Ідеально для BBQ и гриля.</p>
-            
+            <p data-i18n="hero_desc">Довге горіння, мінімум попелу, чистий жар.</p>
             <div class="hero-btns">
-                <a href="catalog.html" class="btn-gold" data-i18n="btn_catalog">ВІДКРИТИ КАТАЛОГ</a>
-                <a href="delivery.html" class="btn-outline" data-i18n="btn_delivery">ДОСТАВКА ТА ОПЛАТА</a>
-                <a href="cart.html" class="btn-outline" data-i18n="btn_cart">КОРЗИНА</a>
+                <a href="catalog.html" class="btn-gold" data-i18n="btn_catalog">КАТАЛОГ</a>
+                <a href="cart.html" class="btn-outline" data-i18n="btn_cart">КОШИК</a>
             </div>
         </div>
     </main>
