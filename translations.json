@@ -1,1 +1,47 @@
-
+{
+  "uk": {
+    "nav_home": "ГОЛОВНА",
+    "nav_catalog": "КАТАЛОГ",
+    "nav_delivery": "ДОСТАВКА",
+    "nav_about": "ПРО НАС",
+    "nav_contacts": "КОНТАКТИ",
+    "nav_cart": "КОРЗИНА",
+    "hero_badge": "● Преміальне вугілля для гриля",
+    "hero_title": "PREMIUM HARDWOOD CHARCOAL",
+    "hero_desc": "Довге горіння, мінімум попелу, чистий жар. Ідеально для BBQ та гриля.",
+    "btn_catalog": "ВІДКРИТИ КАТАЛОГ",
+    "btn_delivery": "ДОСТАВКА ТА ОПЛАТА",
+    "btn_cart": "КОРЗИНА",
+    "add_to_cart": "В кошик"
+  },
+  "ru": {
+    "nav_home": "ГЛАВНАЯ",
+    "nav_catalog": "КАТАЛОГ",
+    "nav_delivery": "ДОСТАВКА",
+    "nav_about": "О НАС",
+    "nav_contacts": "КОНТАКТЫ",
+    "nav_cart": "КОРЗИНА",
+    "hero_badge": "● Премиальный уголь для гриля",
+    "hero_title": "PREMIUM HARDWOOD CHARCOAL",
+    "hero_desc": "Долгое горение, минимум пепла, чистый жар. Идеально для BBQ и гриля.",
+    "btn_catalog": "ОТКРЫТЬ КАТАЛОГ",
+    "btn_delivery": "ДОСТАВКА И ОПЛАТА",
+    "btn_cart": "КОРЗИНА",
+    "add_to_cart": "В корзину"
+  },
+  "en": {
+    "nav_home": "HOME",
+    "nav_catalog": "CATALOG",
+    "nav_delivery": "DELIVERY",
+    "nav_about": "ABOUT US",
+    "nav_contacts": "CONTACTS",
+    "nav_cart": "CART",
+    "hero_badge": "● Premium Hardwood Charcoal",
+    "hero_title": "PREMIUM HARDWOOD CHARCOAL",
+    "hero_desc": "Long burning, low ash, clean heat. Perfect for BBQ and grilling.",
+    "btn_catalog": "OPEN CATALOG",
+    "btn_delivery": "DELIVERY & PAYMENT",
+    "btn_cart": "CART",
+    "add_to_cart": "Add to cart"
+  }
+}
